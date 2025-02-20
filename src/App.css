@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-500: oklch(0.72 0.11 178);
+  --color-primary: oklch(25.91% 0.03 259.3);
+  --color-royal: oklch(60% 0.3 250);
+  --color-secondary: oklch(54.57% 0.08 245.57);
+  --color-bloya: oklch(78.51% 0.17 170.12);
+  --color-bgform: oklch(5.39% 0.01 257.39);
+  --color-lbgray: oklch(94.69% 0.01 240.61);
+  --color-lpurple: oklch(47.26% 0.17 267.06);
+  --color-skin: oklch(67.88% 0.17 28.17);
+  --color-white: oklch(100% 0 0);
+  --color-royalBlue: oklch(51.65% 0.14 264.6);
+  --color-purple: oklch(42.52% 0.11 268.94);
+  --color-midnight: oklch(22.11% 0.05 266.34);
+  --color-metal: oklch(38.56% 0.02 264.58);
+  --color-tahiti: oklch(69.58% 0.12 196.68);
+  --color-silver: oklch(94.02% 0.02 267.94);
+  --color-bubble-gum: oklch(79.74% 0.23 340.79);
+  --color-bermuda: oklch(80.89% 0.18 172.04);
+
+  --font-royal: Fira Code, sans-serif;
+}
