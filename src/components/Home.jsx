@@ -34,7 +34,7 @@ const Home = () => {
               <path d="M4.95 6.63597L0 1.68597L1.414 0.271973L7.778 6.63597L1.414 13L0 11.586L4.95 6.63597Z" />
             </svg>
           </div>
-          <h2 className="text-lg font-medium">Electronics</h2>
+          <h2 className="text-5xl font-medium">Electronics</h2>
           <h2 className="text-lg font-medium">Home & Lifestyle</h2>
           <h2 className="text-lg font-medium">Medicine</h2>
           <h2 className="text-lg font-medium">Sports & Outdoor</h2>
