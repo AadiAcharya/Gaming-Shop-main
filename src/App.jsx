@@ -6,6 +6,9 @@ import About from "./components/About";
 import Sale from "./components/SummerSale";
 import SignUp from "./components/SignUp";
 import Cart from "./components/Cart";
+import Login from "./components/Login";
+import Contact from "./components/Contact";
+
 
 function App() {
   return (
@@ -18,7 +21,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/signup" element={<SignUp />} /> 
-            <Route path="*" element={<Cart/>} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </Router>
