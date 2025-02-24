@@ -6,7 +6,7 @@ import cart from "../assets/cart.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="flex justify-around text-primary  h-[92px] items-center">
+      <div className="flex justify-around text-gray-500 bg-orange-300 h-[92px] items-center">
         <div className="text-2xl ">EXCLUSIVE</div>
         <div className="flex justify-between gap-15 text-xl">
           <div className=" hover:text-blue-400">
@@ -27,11 +27,11 @@ const Navbar = () => {
         </div>
 
         <div className="flex gap-8">
-          <div className="flex items-center border  outline-primary rounded-md  gap-2  max-w-xs">
+          <div className="flex items-center bg-gray-400 p-[7px, 12px, 7px 20px] outline-primary rounded-md  gap-[34px]  max-w-xs">
             <input
               type="text"
               placeholder="What are you looking for?"
-              className="flex-grow outline-none text-sm placeholder-gray-500 bg-transparent"
+              className="flex-grow outline-none max-w-[150px] text-[12px]  font-normal placeholder-gray-500 bg-transparent"
             />
             <img src={search} alt="Search icon" className="h-5 w-5" />
           </div>

@@ -8,6 +8,7 @@ import SignUp from "./components/SignUp";
 import Cart from "./components/Cart";
 import Login from "./components/Login";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        <Footer/>
       </Router>
     </div>
   );
