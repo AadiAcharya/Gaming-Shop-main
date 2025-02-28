@@ -2,7 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return <div>Footer
-    damm
+    jhau lagni hya
+    
   </div>;
 };
 
