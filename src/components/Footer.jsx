@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return <div>Footer
-    jhau lagni hyaaa
+    jhau lagni hya
     
   </div>;
 };
